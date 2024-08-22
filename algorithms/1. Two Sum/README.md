@@ -1,6 +1,6 @@
 # 1. Two Sum
 
-<details open>
+<details>
   <summary>Problem statement</summary>
 
 <pre>
