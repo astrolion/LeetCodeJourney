@@ -39,7 +39,7 @@ Solutions
 **Brute Force Approach**  <br>
 * This approach involves iterating through all possible pairs of numbers to find the two that sum up to the target value. While straightforward, it is inefficient for large inputs due to its quadratic time complexity.
 * Time Complexity :  $O(n^2)$
-* Space Complexity : O(1) 
+* Space Complexity : $O(1)$ 
 
   
 ```cpp
