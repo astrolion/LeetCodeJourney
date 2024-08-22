@@ -65,18 +65,17 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> mp; // Hash map to store number and its index
-        iint n = (int)nums.size(); // Get the size of the vector
+        iint n = (int)nums.size(); 
 
         for (int i = 0; i < n; i++) {
             int complement = target - nums[i]; // Calculate the complement
             // Check if the complement exists in the hash map
             if (mp.find(complement) != mp.end()) {
-                return { mp[complement], i }; // Return indices if found
+                return { mp[complement], i }; 
             }
             // Store the number and its index in the hash map
             mp[nums[i]] = i;
         }
-        // Return an empty vector if no solution is found
         return {};
     }
 };
