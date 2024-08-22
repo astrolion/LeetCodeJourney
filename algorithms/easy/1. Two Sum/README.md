@@ -59,7 +59,8 @@ public:
 
 **Hash Map Approach** <br>
 * By using a hash map (or unordered map), we can achieve a linear time complexity solution. This approach involves storing each number and its index in the hash map as we iterate through the array. For each number, we check if the complement (i.e., target - number) exists in the hash map. This method provides a significant efficiency improvement over the brute force approach.
-
+* Time Complexity :  $O(n)$
+* Space Complexity : $O(n)$
 ```cpp
 class Solution {
 public:
