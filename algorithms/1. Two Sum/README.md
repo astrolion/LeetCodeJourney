@@ -36,6 +36,11 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
 Solutions
 
+* Brute Force Approach  <br>
+This approach involves iterating through all possible pairs of numbers to find the two that sum up to the target value. While straightforward, it is inefficient for large inputs due to its quadratic time complexity.
+$O(n^2)$
+
+
 - Brute Force Approach  <br>
   - This approach involves iterating through all possible pairs of numbers to find the two that sum up to the target value. While straightforward, it is inefficient for large inputs due to its quadratic time complexity.
 \(O(n^2)\)  
